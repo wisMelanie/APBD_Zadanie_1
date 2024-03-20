@@ -12,6 +12,9 @@ namespace ConsoleApp1
         {
             // Modyfikacja 1
             Console.WriteLine("Modyfikacja 1");
+            // Modyfikacja 2
+            int a = 2;
+            Console.WriteLine("Modyfikacja " + a);
         }
     }
 }
