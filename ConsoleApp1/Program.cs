@@ -15,6 +15,9 @@ namespace ConsoleApp1
             // Modyfikacja 2
             int a = 2;
             Console.WriteLine("Modyfikacja " + a);
+            // Modyfikacja 3
+            string b = "3";
+            Console.WriteLine("Modyfikacja " + b);
         }
     }
 }
