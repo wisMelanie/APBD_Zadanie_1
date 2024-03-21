@@ -18,6 +18,23 @@ namespace ConsoleApp1
             // Modyfikacja 3
             string b = "3";
             Console.WriteLine("Modyfikacja " + b);
+
+            int[] numbers = { 1, 2, 3 };
+            int max = FindMax(numbers);
+            Console.WriteLine("Max: " + max);
         }
+        static int FindMax(int[] array)
+        {
+            int max = array[0];
+
+            for (int i = 0; i < array.Length; i++){
+                if (array[i] > max){
+                    max = array[i];
+                }
+            }
+            return max;
+        }
+
+
     }
 }
