@@ -32,13 +32,13 @@ namespace ConsoleApp1
 
         static double CalcAverage(int[] arr)
         {
-            double summary = 0;
+            double suma = 0;
             for (int i = 0; i < arr.Length; i++)
             {
-                summary += arr[i];
+                suma += arr[i];
             }
 
-            double average = summary / arr.Length;
+            double average = suma / arr.Length;
             return average;
         }
         static int FindMax(int[] array)
