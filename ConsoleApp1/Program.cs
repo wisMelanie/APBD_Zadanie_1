@@ -19,10 +19,29 @@ namespace ConsoleApp1
             string b = "3";
             Console.WriteLine("Modyfikacja " + b);
 
+
+            int[] arr = { 1, 2, 3 };
+            double average = CalcAverage(arr);
+            Console.WriteLine(average);
+
             int[] numbers = { 1, 2, 3 };
             int max = FindMax(numbers);
             Console.WriteLine("Max: " + max);
+
         }
+
+        static double CalcAverage(int[] arr)
+        {
+            double sum = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                sum += arr[i];
+            }
+
+            double average = sum / arr.Length;
+            return average;
+        }
+    
         static int FindMax(int[] array)
         {
             int max = array[0];
