@@ -20,13 +20,13 @@ namespace ConsoleApp1
             Console.WriteLine("Modyfikacja " + b);
 
 
-            int[] numbers = { 1, 2, 3 };
-            int max = FindMax(numbers);
-            Console.WriteLine("Max: " + max);
-
             int[] arr = { 1, 2, 3 };
             double average = CalcAverage(arr);
             Console.WriteLine(average);
+
+            int[] numbers = { 1, 2, 3 };
+            int max = FindMax(numbers);
+            Console.WriteLine("Max: " + max);
 
         }
 
