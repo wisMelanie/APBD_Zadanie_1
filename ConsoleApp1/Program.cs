@@ -41,6 +41,19 @@ namespace ConsoleApp1
             double average = suma / arr.Length;
             return average;
         }
+
+        static double CalcAverage(int[] arr)
+        {
+            double suma = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                suma += arr[i];
+            }
+
+            double average = suma / arr.Length;
+            return average;
+        }
+    
         static int FindMax(int[] array)
         {
             int max = array[0];
